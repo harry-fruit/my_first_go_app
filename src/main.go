@@ -1,10 +1,12 @@
 package main
 
 import (
-	"fmt"
+	// "banco_app/pkg/conta"
+	// "banco_app/pkg/individuo"
+	// "fmt"
+	"banco_app/pkg/wizard"
 )
 
 func main() {
-	fmt.Println("Bem-vindo ao sistema de contas correntes!")
-	fmt.Println("Por favor, insira suas credenciais para acessar sua conta.")
+	wizard.Iniciar()
 }
